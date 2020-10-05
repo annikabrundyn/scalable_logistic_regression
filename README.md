@@ -1,6 +1,6 @@
 # Scalable Logistic Regression with PyTorch Lightning
 
-This logistic regression model allows you to scale to much bigger datasets by having the option to train on multiple GPUS and TPUS. I implemented this model in the PyTorch Lightning Bolts library, where it has been rigorously tested and documented.
+This logistic regression model allows you to scale to much bigger datasets by having the option to train on multiple GPUS and TPUS. I implemented this model in the [PyTorch Lightning Bolts](https://github.com/PyTorchLightning/pytorch-lightning-bolts) library, where it has been rigorously tested and documented.
 
 I've also implemented the SklearnDataModule - a class that conveniently puts any Numpy array dataset into PyTorch DataLoaders.
 
