@@ -4,6 +4,10 @@ This [logistic regression model](https://pytorch-lightning-bolts.readthedocs.io/
 
 I've also implemented the [SklearnDataModule](https://pytorch-lightning-bolts.readthedocs.io/en/latest/sklearn_datamodule.html) - a class that conveniently puts any Numpy array dataset into PyTorch DataLoaders.
 
+**Check out the Bolts documentation if you have any questions about how to use this model**
+* Logistic Regression docs
+* Sklearn DataModule docs
+
 Train this model on any Numpy dataset as follows (here I'm demonstrating with the Sklearn Iris dataset):
 
 ```python
