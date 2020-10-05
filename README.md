@@ -1,13 +1,14 @@
 # Scalable Logistic Regression with PyTorch Lightning
 
-This [logistic regression model](https://pytorch-lightning-bolts.readthedocs.io/en/latest/classic_ml.html#logistic-regression) allows you to scale to much bigger datasets by having the option to train on multiple GPUS and TPUS. I implemented this model in the [PyTorch Lightning Bolts](https://github.com/PyTorchLightning/pytorch-lightning-bolts) library, where it has been rigorously tested and documented.
+This **logistic regression model** allows you to scale to much bigger datasets by having the option to train on multiple GPUS and TPUS. I implemented this model in the [PyTorch Lightning Bolts](https://github.com/PyTorchLightning/pytorch-lightning-bolts) library, where it has been rigorously tested and documented.
 
-I've also implemented the [SklearnDataModule](https://pytorch-lightning-bolts.readthedocs.io/en/latest/sklearn_datamodule.html) - a class that conveniently puts any Numpy array dataset into PyTorch DataLoaders.
+I've also implemented the **SklearnDataModule** - a class that conveniently puts any Numpy array dataset into PyTorch DataLoaders.
 
 **Check out the Bolts documentation if you have any questions about how to use this model**
-* Logistic Regression docs
-* Sklearn DataModule docs
+* [Logistic Regression docs](https://pytorch-lightning-bolts.readthedocs.io/en/latest/classic_ml.html#logistic-regression)
+* [Sklearn DataModule docs](https://pytorch-lightning-bolts.readthedocs.io/en/latest/sklearn_datamodule.html)
 
+## An example
 Train this model on any Numpy dataset as follows (here I'm demonstrating with the Sklearn Iris dataset):
 
 ```python
