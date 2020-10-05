@@ -8,6 +8,8 @@ I've also implemented the **SklearnDataModule** - a class that conveniently puts
 * [Logistic Regression docs](https://pytorch-lightning-bolts.readthedocs.io/en/latest/classic_ml.html#logistic-regression)
 * [Sklearn DataModule docs](https://pytorch-lightning-bolts.readthedocs.io/en/latest/sklearn_datamodule.html)
 
+I've also written a blog post explaining the relationship between logisitc regression and neural networks and how this allows us to make use of frameworks such as PyTorch to scale our training. [Read it here.](https://towardsdatascience.com/scaling-logistic-regression-for-multi-gpu-tpu-training-b4898d5049ff)
+
 ## An example
 Train this model on any Numpy dataset as follows (here I'm demonstrating with the Sklearn Iris dataset):
 
@@ -44,4 +46,3 @@ trainer = pl.Trainer(tpu_cores=8)
 # 16 GPUs and 16-bit precision
 trainer = pl.Trainer(gpus=16, precision=16)
 ```
-
